@@ -6,49 +6,53 @@
     <title>Add professor</title>
 </head>
 <body>
-    <h1>Add a professor</h1>
-    <form action="" id="proffessor info form" onsubmit="return confirm('Are you sure you want to submit?');">
-        <p>full professor name</p>
-        <p>
-            <input type="text" placeholder="name"required />
-            <input type="text" placeholder="surmname"required />
-            <input type="text" placeholder="second name"required />
-        </p>
-        <p>
-            <label for="gender sel">gender</label>
-            <select id="gender sel"required>
-                <option value="m">male</option>
-                <option value="f">female</option>
-                <option value="n">non-binary</option>
-            </select>
-        </p>
-        <p>
-            <label for="birth date">date of birth</label>
-            <input type="date" id="birth date"required />
-        </p>
-        <p>
-            <label for="">email</label>
-            <input type="email"required />
-        </p>
-        <p>
-            <label for="">phone number</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
-        </p>
-        <p>
-            <label for="color">background color</label>
-            <input type="color" id="color"required />
-        </p>
-        <p>
-            <label for="">city</label>
-            <input type="text"required />
-        </p>
-        <p>
-            <label for="">additional info</label>
-            <textarea name="comment" id="" cols="30" rows="10" placeholder="additional information"></textarea>
-        </p>
-        <p>
-            <input type="submit" name="submit" value="submit">
-        </p>
-    </form>
+    <header>
+        <h1>Add a professor</h1>
+    </header>
+    <main>
+        <form action="" id="proffessor info form" onsubmit="return confirm('Are you sure you want to submit?');">
+            <p>full professor name</p>
+            <p>
+                <input type="text" placeholder="name"required />
+                <input type="text" placeholder="surmname"required />
+                <input type="text" placeholder="second name"required />
+            </p>
+            <p>
+                <label for="gender sel">gender</label>
+                <select id="gender sel"required>
+                    <option value="m">male</option>
+                    <option value="f">female</option>
+                    <option value="n">non-binary</option>
+                </select>
+            </p>
+            <p>
+                <label for="birth date">date of birth</label>
+                <input type="date" id="birth date"required />
+            </p>
+            <p>
+                <label for="">email</label>
+                <input type="email"required />
+            </p>
+            <p>
+                <label for="">phone number</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+            </p>
+            <p>
+                <label for="color">background color</label>
+                <input type="color" id="color"required />
+            </p>
+            <p>
+                <label for="">city</label>
+                <input type="text"required />
+            </p>
+            <p>
+                <label for="">additional info</label>
+                <textarea name="comment" id="" cols="30" rows="10" placeholder="additional information"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="submit">
+            </p>
+        </form>
+    </main>
 </body>
 </html>
